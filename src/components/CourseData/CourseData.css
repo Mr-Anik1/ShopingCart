@@ -1,0 +1,28 @@
+.CourseData {
+  display: flex;
+  border-bottom: 2px solid lightgrey;
+}
+
+.CourseData img {
+  width: 150px;
+  margin: 8px;
+}
+
+.CourseData Button {
+  margin-bottom: 4px;
+}
+
+.CourseData h2 {
+  color: rgb(21, 166, 223);
+}
+
+#price {
+  color: rgb(221, 10, 45);
+}
+#name {
+  color: rgba(38, 23, 173, 0.87);
+}
+
+#instructor {
+  color: rgb(52, 199, 23);
+}

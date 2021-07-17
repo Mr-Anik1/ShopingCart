@@ -1,0 +1,27 @@
+.cart {
+  margin: 5px;
+}
+
+.cart h2 {
+  color: rgb(243, 73, 166);
+}
+
+.price {
+  color: rgb(16, 117, 212);
+}
+
+#item1 {
+  color: rgb(44, 224, 8);
+}
+
+#item2 {
+  color: rgb(146, 19, 163);
+}
+
+#item3 {
+  color: rgb(12, 199, 190);
+}
+
+#item4 {
+  color: rgb(233, 13, 24);
+}
