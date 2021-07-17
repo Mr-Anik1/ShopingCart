@@ -4,6 +4,7 @@ import CourseData from '../CourseData/CourseData';
 import FakeData from '../FakeData/FakeData';
 import './Shop.css';
 function Shop(){
+
     const [course,setCourse]=useState(FakeData);
     const [cart,setCart]=useState([]);
     
@@ -16,6 +17,9 @@ function Shop(){
         setCart([]);
     }
 
+    const ff=()=>{
+        setCourse();
+    }
     return(
         <div className="shop">
 
