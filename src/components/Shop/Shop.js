@@ -5,7 +5,7 @@ import FakeData from '../FakeData/FakeData';
 import './Shop.css';
 function Shop(){
 
-    const [course,setCourse]=useState(FakeData);
+    const [course]=useState(FakeData);
     const [cart,setCart]=useState([]);
     
     const handelButton=(course)=>{
@@ -17,9 +17,6 @@ function Shop(){
         setCart([]);
     }
 
-    const ff=()=>{
-        setCourse();
-    }
     return(
         <div className="shop">
 
